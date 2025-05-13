@@ -1006,11 +1006,6 @@ const quizData = [
       "Um famoso bandeirante que explorou o interior em busca de ouro, contribuindo para a expansão de São Paulo.",
   },
   {
-    question: "Qual é a capital do Brasil?",
-    options: ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador", "Recife"],
-    answer: "Brasília",
-  },
-  {
     question: "Em que ano São Paulo foi fundada?",
     options: ["1500", "1532", "1554", "1700", "1800"],
     answer: "1554",
@@ -1638,5 +1633,48 @@ const quizData = [
       "Excesso de consoles e jogos de baixa qualidade",
     ],
     answer: "Excesso de consoles e jogos de baixa qualidade",
+  },
+  {
+    question: "Quem foi o primeiro homem a viajar para o espaço?",
+    options: [
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "John Glenn",
+      "Buzz Aldrin",
+      "Valentina Tereshkova",
+    ],
+    answer: "Yuri Gagarin",
+  },
+  {
+    question: "Quem foi a primeira mulher a viajar para o espaço?",
+    options: [
+      "Sally Ride",
+      "Valentina Tereshkova",
+      "Mae Jemison",
+      "Eileen Collins",
+      "Anousheh Ansari",
+    ],
+    answer: "Valentina Tereshkova",
+  },
+  {
+    question: "Quantos knockouts Mike Tyson teve em sua carreira de boxe?",
+    options: ["34", "44", "54", "64", "74"],
+    answer: "44",
+  },
+  {
+    question: "Como se chamava o primeiro computador eletrônico digital?",
+    options: ["Colossus", "ENIAC", "IBM 701", "UNIVAC", "Apple I"],
+    answer: "ENIAC",
+  },
+  {
+    question: "Quando o YouTube foi lançado?",
+    options: ["2002", "2003", "2004", "2005", "2006"],
+    answer: "2005",
+  },
+  {
+    question:
+      "Qual país tem o maior número de idiomas falados, com cerca de 850 idiomas?",
+    options: ["Indonésia", "Papua Nova Guiné", "Brasil", "Índia", "Nigéria"],
+    answer: "Papua Nova Guiné",
   },
 ];
