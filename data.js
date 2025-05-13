@@ -981,4 +981,455 @@ const quizData = [
     ],
     answer: "Star Trek: A Nova Geração",
   },
+  {
+    question: "Qual foi o primeiro nome de São Vicente, fundada em 1532?",
+    options: [
+      "Vila São Vicente",
+      "Vila Real de São Vicente",
+      "São Vicente do Mar",
+      "Vila das Caravelas",
+      "Vila São Tomé",
+    ],
+    answer: "Vila de São Vicente",
+  },
+  {
+    question:
+      "Quem foi Borba Gato, e qual a sua importância na história de São Paulo?",
+    options: [
+      "Um famoso bandeirante que explorou o interior em busca de ouro, contribuindo para a expansão de São Paulo.",
+      "Um explorador que fundou a cidade de São Paulo.",
+      "Um líder indígena que lutou contra os colonizadores portugueses.",
+      "Um militar que combateu os holandeses em Pernambuco.",
+      "Um governador colonial de São Paulo.",
+    ],
+    answer:
+      "Um famoso bandeirante que explorou o interior em busca de ouro, contribuindo para a expansão de São Paulo.",
+  },
+  {
+    question: "Qual é a capital do Brasil?",
+    options: ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador", "Recife"],
+    answer: "Brasília",
+  },
+  {
+    question: "Em que ano São Paulo foi fundada?",
+    options: ["1500", "1532", "1554", "1700", "1800"],
+    answer: "1554",
+  },
+  {
+    question:
+      "Quem foi o primeiro governador de São Paulo após a Independência do Brasil?",
+    options: [
+      "Martim Francisco Ribeiro de Andrada",
+      "José Bonifácio de Andrada e Silva",
+      "Carlos de Souza Nazaré",
+      "Dom Pedro II",
+      "Fernão Dias Paes Leme",
+    ],
+    answer: "Martim Francisco Ribeiro de Andrada",
+  },
+  {
+    question:
+      "Qual foi o movimento cinematográfico mais influente no cinema italiano do pós-guerra?",
+    options: [
+      "Comédia italiana",
+      "Neorrealismo",
+      "Cinecittà",
+      "Fellinismo",
+      "Cine de autor",
+    ],
+    answer: "Neorrealismo",
+  },
+  {
+    question: "Quem é considerado o mestre do cinema neorrealista italiano?",
+    options: [
+      "Federico Fellini",
+      "Vittorio De Sica",
+      "Michelangelo Antonioni",
+      "Luchino Visconti",
+      "Pier Paolo Pasolini",
+    ],
+    answer: "Vittorio De Sica",
+  },
+  {
+    question: "Qual cidade foi a primeira capital do Brasil?",
+    options: [
+      "Rio de Janeiro",
+      "Salvador",
+      "Brasília",
+      "Olinda",
+      "São Salvador",
+    ],
+    answer: "Salvador",
+  },
+  {
+    question:
+      "Quem foi o diretor de filmes como 'La Dolce Vita' e '8½', ícones do cinema italiano?",
+    options: [
+      "Luchino Visconti",
+      "Federico Fellini",
+      "Giuseppe Tornatore",
+      "Roberto Rossellini",
+      "Pier Paolo Pasolini",
+    ],
+    answer: "Federico Fellini",
+  },
+  {
+    question:
+      "Qual dessas bandas brasileiras marcou os anos 80 com o hit 'Tempo Perdido'?",
+    options: [
+      "Titãs",
+      "Barão Vermelho",
+      "Legião Urbana",
+      "Paralamas do Sucesso",
+      "Os Mutantes",
+    ],
+    answer: "Legião Urbana",
+  },
+  {
+    question:
+      "Quem lançou a canção 'Me Chama' em 1984, um clássico da MPB e do rock brasileiro?",
+    options: [
+      "Cazuza",
+      "Renato Russo",
+      "Lobão",
+      "Raul Seixas",
+      "Caetano Veloso",
+    ],
+    answer: "Lobão",
+  },
+  {
+    question:
+      "Qual cantora se destacou nos anos 90 com a música 'O Canto da Cidade'?",
+    options: [
+      "Daniela Mercury",
+      "Ivete Sangalo",
+      "Gal Costa",
+      "Marisa Monte",
+      "Elba Ramalho",
+    ],
+    answer: "Daniela Mercury",
+  },
+  {
+    question:
+      "Qual dessas bandas britânicas ficou famosa nos anos 90 com a música 'Wonderwall'?",
+    options: ["Blur", "Oasis", "Radiohead", "The Verve", "Pulp"],
+    answer: "Oasis",
+  },
+  {
+    question:
+      "Quem é a artista brasileira conhecida por misturar samba e pop, com hits como 'Beija Eu' nos anos 90?",
+    options: [
+      "Marisa Monte",
+      "Zizi Possi",
+      "Adriana Calcanhotto",
+      "Ana Carolina",
+      "Sandra de Sá",
+    ],
+    answer: "Marisa Monte",
+  },
+  {
+    question:
+      "Qual cantor britânico ficou conhecido nos anos 80 pelo álbum 'Faith' e por ser ex-integrante do Wham!?",
+    options: [
+      "Elton John",
+      "George Michael",
+      "Phil Collins",
+      "David Bowie",
+      "Morrissey",
+    ],
+    answer: "George Michael",
+  },
+  {
+    question:
+      "Quem pintou a obra 'Guernica', retratando os horrores da guerra?",
+    options: [
+      "Vincent van Gogh",
+      "Salvador Dalí",
+      "Claude Monet",
+      "Pablo Picasso",
+      "Diego Rivera",
+    ],
+    answer: "Pablo Picasso",
+  },
+  {
+    question:
+      "Qual dessas bandas britânicas lançou o álbum 'The Queen Is Dead' em 1986?",
+    options: [
+      "Depeche Mode",
+      "The Cure",
+      "New Order",
+      "The Clash",
+      "The Smiths",
+    ],
+    answer: "The Smiths",
+  },
+  {
+    question:
+      "Qual pintor é famoso por suas obras expressionistas como 'O Grito'?",
+    options: [
+      "Paul Cézanne",
+      "Edvard Munch",
+      "Gustav Klimt",
+      "Henri Matisse",
+      "Marc Chagall",
+    ],
+    answer: "Edvard Munch",
+  },
+  {
+    question:
+      "Qual dessas cantoras brasileiras ficou famosa nos anos 90 com músicas como 'A Lenda'?",
+    options: [
+      "Sandy & Junior",
+      "Ivete Sangalo",
+      "Daniela Mercury",
+      "Simone",
+      "Cássia Eller",
+    ],
+    answer: "Sandy & Junior",
+  },
+  {
+    question: "Qual é o nome do protagonista de Yu Yu Hakusho?",
+    options: ["Hiei", "Kurama", "Yusuke Urameshi", "Kuwabara", "Toguro"],
+    answer: "Yusuke Urameshi",
+  },
+  {
+    question: "Quem é o criador de Hunter x Hunter?",
+    options: [
+      "Akira Toriyama",
+      "Tite Kubo",
+      "Yoshihiro Togashi",
+      "Eiichiro Oda",
+      "Masashi Kishimoto",
+    ],
+    answer: "Yoshihiro Togashi",
+  },
+  {
+    question:
+      "Em Fullmetal Alchemist, qual é o nome do irmão mais novo de Edward Elric?",
+    options: ["Roy", "Hughes", "Scar", "Alphonse", "Bradley"],
+    answer: "Alphonse",
+  },
+  {
+    question:
+      "Qual cavaleiro de bronze usa a armadura de Fênix em Cavaleiros do Zodíaco?",
+    options: ["Shun", "Seiya", "Ikki", "Shiryu", "Hyoga"],
+    answer: "Ikki",
+  },
+  {
+    question: "Qual é o nome verdadeiro do He-Man?",
+    options: ["Rei Randor", "Adam", "Orko", "Skeletor", "Keldor"],
+    answer: "Adam",
+  },
+  {
+    question: "Qual é o objetivo de Gon em Hunter x Hunter?",
+    options: [
+      "Derrotar todos os caçadores",
+      "Encontrar seu pai",
+      "Se tornar presidente",
+      "Dominar o Nen",
+      "Caçar monstros raros",
+    ],
+    answer: "Encontrar seu pai",
+  },
+  {
+    question:
+      "Qual personagem de Yu Yu Hakusho é um demônio que controla o fogo negro do mundo das trevas?",
+    options: ["Yusuke", "Kurama", "Hiei", "Genkai", "Sensui"],
+    answer: "Hiei",
+  },
+  {
+    question:
+      "Em Fullmetal Alchemist, o que Edward e Alphonse tentam trazer de volta com alquimia?",
+    options: [
+      "O pai deles",
+      "Sua infância",
+      "A pedra filosofal",
+      "A mãe deles",
+      "Um braço mecânico",
+    ],
+    answer: "A mãe deles",
+  },
+  {
+    question: "Qual é o nome do tio rico do Pato Donald?",
+    options: [
+      "Pato Gilberto",
+      "Tio Alfredo",
+      "Tio Patinhas",
+      "Pato Gastão",
+      "Tio João",
+    ],
+    answer: "Tio Patinhas",
+  },
+  {
+    question:
+      "Qual é o grito que He-Man diz para se transformar em sua forma poderosa?",
+    options: [
+      "Pelo poder de Greyskull!",
+      "Vamos à luta!",
+      "Força total!",
+      "Espada do poder!",
+      "Poder de Eternia!",
+    ],
+    answer: "Pelo poder de Greyskull!",
+  },
+  {
+    question:
+      "Qual apresentador brasileiro ficou famoso pelo bordão 'Ô loco, meu!'?",
+    options: [
+      "Renato Aragão",
+      "Chico Anysio",
+      "Tom Cavalcante",
+      "Faustão",
+      "Jô Soares",
+    ],
+    answer: "Faustão",
+  },
+  {
+    question:
+      "Em qual filme aparece a cena famosa do personagem gritando 'Wilson!' ao perder sua bola de vôlei?",
+    options: ["Forrest Gump", "O Náufrago", "Náufragos", "Titanic", "A Praia"],
+    answer: "O Náufrago",
+  },
+  {
+    question:
+      "Qual é um dos estilos musicais mais típicos do nordeste do Brasil?",
+    options: ["Samba", "Bossa Nova", "Forró", "Chorinho", "Maracatu"],
+    answer: "Forró",
+  },
+  {
+    question: "Qual é a capital do estado de Goiás?",
+    options: ["Cuiabá", "Palmas", "Campo Grande", "Goiânia", "Brasília"],
+    answer: "Goiânia",
+  },
+  {
+    question: "Quem foi o primeiro imperador de Roma?",
+    options: ["Nero", "Calígula", "Augusto", "Júlio César", "Trajano"],
+    answer: "Augusto",
+  },
+  {
+    question:
+      "Qual humorista interpretava vários personagens no programa 'Escolinha do Professor Raimundo'?",
+    options: [
+      "Ronald Golias",
+      "Costinha",
+      "Chico Anysio",
+      "Dercy Gonçalves",
+      "Paulo Gustavo",
+    ],
+    answer: "Chico Anysio",
+  },
+  {
+    question:
+      "Em qual filme há a cena famosa da dança com guarda-chuva ao som de 'Singin’ in the Rain'?",
+    options: [
+      "Cantando na Chuva",
+      "Dançando na Chuva",
+      "Grease",
+      "Chicago",
+      "Moulin Rouge",
+    ],
+    answer: "Cantando na Chuva",
+  },
+  {
+    question: "O flamenco é um estilo musical tradicional de qual país?",
+    options: ["Itália", "México", "Portugal", "Espanha", "França"],
+    answer: "Espanha",
+  },
+  {
+    question: "Qual é a capital do estado do Acre?",
+    options: ["Rio Branco", "Boa Vista", "Macapá", "Porto Velho", "Belém"],
+    answer: "Rio Branco",
+  },
+  {
+    question:
+      "Qual imperador romano ficou famoso por queimar Roma e perseguir cristãos?",
+    options: ["Augusto", "César", "Trajano", "Nero", "Marco Aurélio"],
+    answer: "Nero",
+  },
+  {
+    question: "Quem é considerado o 'rei do rock'?",
+    options: [
+      "Elvis Presley",
+      "Chuck Berry",
+      "Michael Jackson",
+      "Buddy Holly",
+      "Little Richard",
+    ],
+    answer: "Elvis Presley",
+  },
+  {
+    question: "Qual foi o primeiro navegador popular da internet?",
+    options: [
+      "Internet Explorer",
+      "Firefox",
+      "Netscape Navigator",
+      "Safari",
+      "Opera",
+    ],
+    answer: "Netscape Navigator",
+  },
+  {
+    question:
+      "Qual escândalo financeiro envolveu a gigante de energia Enron nos anos 2000?",
+    options: [
+      "Lavagem de dinheiro",
+      "Contabilidade fraudulenta",
+      "Pirâmide financeira",
+      "Suborno internacional",
+      "Sonegação fiscal",
+    ],
+    answer: "Contabilidade fraudulenta",
+  },
+  {
+    question:
+      "Qual é o maior felino da América do Sul, encontrado na Amazônia?",
+    options: ["Onça-pintada", "Puma", "Gato-do-mato", "Leopardo", "Lobo-guará"],
+    answer: "Onça-pintada",
+  },
+  {
+    question:
+      "Qual animal australiano é famoso por carregar seus filhotes em uma bolsa?",
+    options: ["Canguru", "Dingo", "Diabo-da-tasmânia", "Emu", "Quokka"],
+    answer: "Canguru",
+  },
+  {
+    question: "Qual desses animais é nativo da Nova Zelândia e não voa?",
+    options: ["Kiwi", "Papagaio", "Pinguim-rei", "Takahe", "Cacatua"],
+    answer: "Kiwi",
+  },
+  {
+    question: "Quem é considerado o 'pai do blues moderno'?",
+    options: [
+      "Robert Johnson",
+      "Muddy Waters",
+      "B.B. King",
+      "Howlin' Wolf",
+      "John Lee Hooker",
+    ],
+    answer: "Muddy Waters",
+  },
+  {
+    question:
+      "Em que ano a World Wide Web (www) foi criada por Tim Berners-Lee?",
+    options: ["1987", "1989", "1991", "1993", "1995"],
+    answer: "1989",
+  },
+  {
+    question:
+      "Qual animal brasileiro é conhecido por ser um excelente nadador e viver em grupos familiares?",
+    options: ["Capivara", "Ariranha", "Tamanduá-bandeira", "Tatu", "Cutia"],
+    answer: "Ariranha",
+  },
+  {
+    question:
+      "O colapso de qual empresa americana deu início à crise financeira de 2008?",
+    options: [
+      "Goldman Sachs",
+      "Lehman Brothers",
+      "Bear Stearns",
+      "AIG",
+      "Merrill Lynch",
+    ],
+    answer: "Lehman Brothers",
+  },
 ];
