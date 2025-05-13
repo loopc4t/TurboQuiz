@@ -185,6 +185,36 @@ button:disabled {
   margin-top: 10px;
 }
 
+/* Timer styles to add to your existing CSS */
+.timer-display {
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: #e0d6c1;
+  font-weight: bold;
+}
+
+.timer-warning {
+  color: #cc5c5c;
+  animation: pulse 1s infinite alternate;
+}
+
+.copyright {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+@keyframes pulse {
+  from {
+    background-color: #3a3a3a;
+  }
+  to {
+    background-color: rgba(204, 92, 92, 0.2);
+  }
+}
+
 @media (max-width: 480px) {
   .quiz-container {
     width: 90%;
