@@ -984,7 +984,7 @@ const quizData = [
   {
     question: "Qual foi o primeiro nome de São Vicente, fundada em 1532?",
     options: [
-      "Vila São Vicente",
+      "Vila de São Vicente",
       "Vila Real de São Vicente",
       "São Vicente do Mar",
       "Vila das Caravelas",
