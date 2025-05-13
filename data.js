@@ -1627,4 +1627,16 @@ const quizData = [
     options: ["Mônaco", "Nauru", "Vaticano", "San Marino", "Liechtenstein"],
     answer: "Vaticano",
   },
+  {
+    question:
+      "Qual foi o principal motivo para a quebra da indústria dos games em 1983?",
+    options: [
+      "Falta de interesse dos consumidores",
+      "A chegada de novos competidores estrangeiros",
+      "Censura governamental sobre jogos",
+      "Falta de inovação nos gráficos",
+      "Excesso de consoles e jogos de baixa qualidade",
+    ],
+    answer: "Excesso de consoles e jogos de baixa qualidade",
+  },
 ];
