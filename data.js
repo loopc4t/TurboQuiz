@@ -1548,4 +1548,83 @@ const quizData = [
     options: ["2005", "2007", "2008", "2006", "2009"],
     answer: "2007",
   },
+  {
+    question: "Em Mega Man, quem é o chefe final do jogo?",
+    options: ["Dr. Light", "Dr. Wily", "Proto Man", "Shadow Man", "Guts Man"],
+    answer: "Dr. Wily",
+  },
+  {
+    question:
+      "Qual vocalista de rock ficou famoso por morder a cabeça de um morcego durante um show?",
+    options: [
+      "Axl Rose",
+      "Ozzy Osbourne",
+      "Robert Plant",
+      "Kurt Cobain",
+      "Jim Morrison",
+    ],
+    answer: "Ozzy Osbourne",
+  },
+  {
+    question:
+      "Quem foi o segundo maior pontuador da era de Michael Jordan do Chicago Bulls?",
+    options: [
+      "Toni Kukoč",
+      "Horace Grant",
+      "B.J. Armstrong",
+      "Scottie Pippen",
+      "Ron Harper",
+    ],
+    answer: "Scottie Pippen",
+  },
+  {
+    question: "Qual é o animal mais rápido do mundo?",
+    options: [
+      "Leopardo",
+      "Falcão-peregrino",
+      "Cheetah",
+      "Guepardo",
+      "Águia-real",
+    ],
+    answer: "Falcão-peregrino",
+  },
+  {
+    question: "Qual é o maior animal já registrado na história?",
+    options: [
+      "Dinossauro Argentinosaurus",
+      "Baleia-azul",
+      "Titanossauro",
+      "Megatherium",
+      "Elefante africano",
+    ],
+    answer: "Baleia-azul",
+  },
+  {
+    question:
+      "O tigre da Tasmânia, também conhecido como tilacino, foi um tipo de qual animal?",
+    options: [
+      "Felídeo",
+      "Marsupial carnívoro",
+      "Mamífero aquático",
+      "Répteis",
+      "Aves de rapina",
+    ],
+    answer: "Marsupial carnívoro",
+  },
+  {
+    question: "Há quantos milhões de anos os crocodilos habitam a Terra?",
+    options: [
+      "50 milhões de anos",
+      "100 milhões de anos",
+      "150 milhões de anos",
+      "200 milhões de anos",
+      "250 milhões de anos",
+    ],
+    answer: "200 milhões de anos",
+  },
+  {
+    question: "Qual é o menor país do mundo?",
+    options: ["Mônaco", "Nauru", "Vaticano", "San Marino", "Liechtenstein"],
+    answer: "Vaticano",
+  },
 ];
