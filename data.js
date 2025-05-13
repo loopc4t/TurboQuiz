@@ -1040,7 +1040,7 @@ const quizData = [
     answer: "Neorrealismo",
   },
   {
-    question: "Quem é considerado o mestre do cinema neorrealista italiano?",
+    question: "Quem dirigiu o clássico do neorrealismo italiano 'Ladrões de Bicicleta'?",
     options: [
       "Federico Fellini",
       "Vittorio De Sica",
