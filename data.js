@@ -1040,7 +1040,8 @@ const quizData = [
     answer: "Neorrealismo",
   },
   {
-    question: "Quem dirigiu o clássico do neorrealismo italiano 'Ladrões de Bicicleta'?",
+    question:
+      "Quem dirigiu o clássico do neorrealismo italiano 'Ladrões de Bicicleta'?",
     options: [
       "Federico Fellini",
       "Vittorio De Sica",
@@ -1431,5 +1432,81 @@ const quizData = [
       "Merrill Lynch",
     ],
     answer: "Lehman Brothers",
+  },
+  {
+    question:
+      "Quem canta a música 'Eu Não Consigo Ser Alegre o Tempo Inteiro'?",
+    options: [
+      "Belchior",
+      "Cazuza",
+      "Chico Buarque",
+      "Wander Wildner",
+      "Odair José",
+    ],
+    answer: "Wander Wildner",
+  },
+  {
+    question: "Qual dessas músicas é um dos maiores sucessos de Belchior?",
+    options: [
+      "Como Nossos Pais",
+      "Divino Maravilhoso",
+      "Apenas um Rapaz Latino-Americano",
+      "O Mundo é um Moinho",
+      "Andança",
+    ],
+    answer: "Apenas um Rapaz Latino-Americano",
+  },
+  {
+    question:
+      "Nara Leão ficou conhecida como 'a musa de' qual movimento musical?",
+    options: ["MPB", "Bossa Nova", "Tropicália", "Samba-canção", "Manguebeat"],
+    answer: "Bossa Nova",
+  },
+  {
+    question: "Qual dessas músicas é um clássico de Jorge Ben?",
+    options: [
+      "País Tropical",
+      "Saideira",
+      "Aquarela",
+      "Chega de Saudade",
+      "Lanterna dos Afogados",
+    ],
+    answer: "País Tropical",
+  },
+  {
+    question:
+      "Quem é o autor da música 'Um Bom Lugar', um clássico do rap nacional?",
+    options: ["Emicida", "Sabotage", "Criolo", "Mano Brown", "MV Bill"],
+    answer: "Sabotage",
+  },
+  {
+    question:
+      "Quem foi o goleiro titular da Seleção Brasileira na final da Copa do Mundo de 1994?",
+    options: ["Dida", "Marcos", "Taffarel", "Rogério Ceni", "Zetti"],
+    answer: "Taffarel",
+  },
+  {
+    question:
+      "Qual dessas músicas é um dos maiores sucessos da dupla Milionário & José Rico?",
+    options: [
+      "Fio de Cabelo",
+      "Pensa em Mim",
+      "Estrada da Vida",
+      "Evidências",
+      "Boate Azul",
+    ],
+    answer: "Estrada da Vida",
+  },
+  {
+    question:
+      "Qual é o nome do álbum de estreia da banda inglesa The Libertines, lançado em 2002?",
+    options: [
+      "Up the Bracket",
+      "The Libertines",
+      "Whatever People Say I Am, That's What I'm Not",
+      "Is This It",
+      "Definitely Maybe",
+    ],
+    answer: "Up the Bracket",
   },
 ];
