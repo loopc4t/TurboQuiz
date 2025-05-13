@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const RETRY_AFTER = 5; // Number of questions before retry
 
   // Timer variables
-  const QUIZ_TIME = 20 * 60; // 20 minutes in seconds
+  const QUIZ_TIME = 15 * 60; // 20 minutes in seconds
   let timeRemaining = QUIZ_TIME;
   let timerInterval;
   let timerDisplay;
