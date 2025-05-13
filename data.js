@@ -1190,8 +1190,8 @@ const quizData = [
   },
   {
     question: "Qual é o nome do protagonista de Yu Yu Hakusho?",
-    options: ["Hiei", "Kurama", "Yusuke Urameshi", "Kuwabara", "Toguro"],
-    answer: "Yusuke Urameshi",
+    options: ["Hiei", "Kurama", "Yusuke", "Kuwabara", "Toguro"],
+    answer: "Yusuke",
   },
   {
     question: "Quem é o criador de Hunter x Hunter?",
@@ -1508,5 +1508,44 @@ const quizData = [
       "Definitely Maybe",
     ],
     answer: "Up the Bracket",
+  },
+  {
+    question:
+      "Em Pac-Man, qual é o nome do fantasma que é mais rápido quando o jogador está perto?",
+    options: ["Blinky", "Pinky", "Inky", "Clyde", "Sue"],
+    answer: "Blinky",
+  },
+  {
+    question: "Em King of Fighters '96, quem é o chefe final do jogo?",
+    options: [
+      "Goenitz",
+      "Kyo Kusanagi",
+      "Orochi",
+      "Chizuru Kagura",
+      "Geese Howard",
+    ],
+    answer: "Goenitz",
+  },
+  {
+    question: "Em Final Fight, quem é o chefe final do jogo?",
+    options: ["Belger", "Sodom", "Andore", "Rolento", "Maki Genryusai"],
+    answer: "Belger",
+  },
+  {
+    question:
+      "Qual é o nome da princesa que Mario tenta resgatar em muitos de seus jogos?",
+    options: [
+      "Princesa Daisy",
+      "Princesa Rosalina",
+      "Princesa Peach",
+      "Princesa Zelda",
+      "Princesa Toadstool",
+    ],
+    answer: "Princesa Peach",
+  },
+  {
+    question: "Em que ano foi lançado o primeiro iPhone?",
+    options: ["2005", "2007", "2008", "2006", "2009"],
+    answer: "2007",
   },
 ];
