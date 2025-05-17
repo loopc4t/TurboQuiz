@@ -13,18 +13,24 @@ document.addEventListener("DOMContentLoaded", function () {
   const RETRY_AFTER = 5; // Number of questions before retry
 
   // Timer variables
-  const QUIZ_TIME = 15 * 60; // 20 minutes in seconds
+  const QUIZ_TIME = 2 * 60; // 2 minutes in seconds
   let timeRemaining = QUIZ_TIME;
   let timerInterval;
   let timerDisplay;
 
   // Initialize timer display
   function initializeTimer() {
+    // Remove existing timer if present
+    if (timerDisplay) {
+      timerDisplay.remove();
+    }
+
     timerDisplay = document.createElement("div");
     timerDisplay.className = "timer-display";
     document
       .querySelector(".quiz-container")
       .insertBefore(timerDisplay, document.querySelector("h1").nextSibling);
+
     updateTimerDisplay();
 
     // Start the timer
@@ -50,6 +56,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Visual warning when time is running low
     if (timeRemaining <= 60) {
       timerDisplay.classList.add("timer-warning");
+    } else {
+      timerDisplay.classList.remove("timer-warning");
     }
   }
 
@@ -204,7 +212,11 @@ document.addEventListener("DOMContentLoaded", function () {
       usedQuestions.clear();
       wrongQuestionsQueue = [];
       timeRemaining = QUIZ_TIME;
+
+      // Stop the existing timer before starting a new one
       clearInterval(timerInterval);
+
+      // Clear the result div
       resultDiv.textContent = "";
 
       // Restart timer and display first question
