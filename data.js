@@ -419,7 +419,7 @@ const quizData = [
   {
     question:
       "Quem cantou a música tema do filme 'Titanic' chamada 'My Heart Will Go On'?",
-    options: ["Celine Dion", "Elton John", "Whitney Houston", "Adele"],
+    options: ["Elton John", "Whitney Houston", "Celine Dion", "Adele"],
     answer: "Celine Dion",
   },
   {
@@ -436,13 +436,13 @@ const quizData = [
   {
     question:
       "Em qual série de TV o personagem principal, Walter White, assume uma nova identidade como Heisenberg?",
-    options: ["Breaking Bad", "Narcos", "Better Call Saul", "Ozark"],
+    options: ["Narcos", "Better Call Saul", "Ozark", "Breaking Bad"],
     answer: "Breaking Bad",
   },
   {
     question:
       "Quem é o cantor conhecido como o 'Rei do Pop', famoso por músicas como 'Thriller' e 'Billie Jean'?",
-    options: ["Prince", "Michael Jackson", "Elvis Presley", "David Bowie"],
+    options: ["Prince", "Elvis Presley", "Michael Jackson", "David Bowie"],
     answer: "Michael Jackson",
   },
   {
@@ -472,8 +472,8 @@ const quizData = [
       "Quem interpretou o personagem 'Iron Man' (Homem de Ferro) no Universo Cinematográfico Marvel?",
     options: [
       "Chris Hemsworth",
-      "Robert Downey Jr.",
       "Chris Evans",
+      "Robert Downey Jr.",
       "Mark Ruffalo",
     ],
     answer: "Robert Downey Jr.",
@@ -541,10 +541,10 @@ const quizData = [
     question:
       "Qual filme de 2019, dirigido por Quentin Tarantino, se passa em Hollywood nos anos 60 e apresenta Leonardo DiCaprio e Brad Pitt?",
     options: [
-      "Once Upon a Time in Hollywood",
       "Inglourious Basterds",
       "The Hateful Eight",
       "Django Unchained",
+      "Once Upon a Time in Hollywood",
     ],
     answer: "Once Upon a Time in Hollywood",
   },
@@ -569,8 +569,8 @@ const quizData = [
       "Qual foi o primeiro longa-metragem de animação da história do cinema, lançado em 1937 pela Disney?",
     options: [
       "Cinderela",
-      "Branca de Neve e os Sete Anões",
       "Fantasia",
+      "Branca de Neve e os Sete Anões",
       "A Bela Adormecida",
     ],
     answer: "Branca de Neve e os Sete Anões",
@@ -608,8 +608,8 @@ const quizData = [
       "Qual o nome do primeiro filme de animação da Disney que foi indicado ao Oscar de Melhor Filme?",
     options: [
       "Cinderela",
-      "A Bela e a Fera",
       "O Rei Leão",
+      "A Bela e a Fera",
       "Branca de Neve e os Sete Anões",
     ],
     answer: "A Bela e a Fera",
@@ -699,7 +699,7 @@ const quizData = [
   {
     question:
       "Qual gigante da tecnologia foi fundada por Steve Jobs, Steve Wozniak e Ronald Wayne?",
-    options: ["Apple", "Microsoft", "Dell", "Amazon"],
+    options: ["Microsoft", "Dell", "Apple", "Amazon"],
     answer: "Apple",
   },
   {
@@ -716,12 +716,12 @@ const quizData = [
   },
   {
     question: "Qual é o rio mais extenso do mundo?",
-    options: ["Nilo", "Amazonas", "Yangtzé", "Mississipi"],
+    options: ["Nilo", "Yangtzé", "Amazonas", "Mississipi"],
     answer: "Amazonas",
   },
   {
     question: "Qual é a moeda oficial usada na Suíça?",
-    options: ["Euro", "Franco suíço", "Coroa", "Marco"],
+    options: ["Euro", "Coroa", "Franco suíço", "Marco"],
     answer: "Franco suíço",
   },
   {
@@ -731,12 +731,12 @@ const quizData = [
   },
   {
     question: "Quem é o maior medalhista olímpico da história?",
-    options: ["Usain Bolt", "Michael Phelps", "Larisa Latynina", "Mark Spitz"],
+    options: ["Usain Bolt", "Larisa Latynina", "Michael Phelps", "Mark Spitz"],
     answer: "Michael Phelps",
   },
   {
     question: "Em qual esporte se destaca o time Golden State Warriors?",
-    options: ["Beisebol", "Basquete", "Futebol Americano", "Hóquei"],
+    options: ["Beisebol", "Futebol Americano", "Hóquei", "Basquete"],
     answer: "Basquete",
   },
   {
@@ -1027,10 +1027,10 @@ const quizData = [
       "Qual foi o movimento cinematográfico mais influente no cinema italiano do pós-guerra?",
     options: [
       "Comédia italiana",
-      "Neorrealismo",
       "Cinecittà",
       "Fellinismo",
       "Cine de autor",
+      "Neorrealismo",
     ],
     answer: "Neorrealismo",
   },
@@ -1050,10 +1050,10 @@ const quizData = [
     question: "Qual cidade foi a primeira capital do Brasil?",
     options: [
       "Rio de Janeiro",
-      "Salvador",
       "Brasília",
       "Olinda",
       "São Salvador",
+      "Salvador",
     ],
     answer: "Salvador",
   },
@@ -1283,7 +1283,7 @@ const quizData = [
   {
     question:
       "Em qual filme aparece a cena famosa do personagem gritando 'Wilson!' ao perder sua bola de vôlei?",
-    options: ["Forrest Gump", "O Náufrago", "Náufragos", "Titanic", "A Praia"],
+    options: ["Forrest Gump", "Náufragos", "Titanic", "O Náufrago", "A Praia"],
     answer: "O Náufrago",
   },
   {
@@ -1369,10 +1369,10 @@ const quizData = [
       "Qual escândalo financeiro envolveu a gigante de energia Enron nos anos 2000?",
     options: [
       "Lavagem de dinheiro",
-      "Contabilidade fraudulenta",
       "Pirâmide financeira",
       "Suborno internacional",
       "Sonegação fiscal",
+      "Contabilidade fraudulenta",
     ],
     answer: "Contabilidade fraudulenta",
   },
@@ -1397,17 +1397,17 @@ const quizData = [
     question: "Quem é considerado o 'pai do blues moderno'?",
     options: [
       "Robert Johnson",
-      "Muddy Waters",
       "B.B. King",
       "Howlin' Wolf",
       "John Lee Hooker",
+      "Muddy Waters",
     ],
     answer: "Muddy Waters",
   },
   {
     question:
       "Em que ano a World Wide Web (www) foi criada por Tim Berners-Lee?",
-    options: ["1987", "1989", "1991", "1993", "1995"],
+    options: ["1987", "1991", "1989", "1993", "1995"],
     answer: "1989",
   },
   {
@@ -1421,10 +1421,10 @@ const quizData = [
       "O colapso de qual empresa americana deu início à crise financeira de 2008?",
     options: [
       "Goldman Sachs",
-      "Lehman Brothers",
       "Bear Stearns",
       "AIG",
       "Merrill Lynch",
+      "Lehman Brothers",
     ],
     answer: "Lehman Brothers",
   },
@@ -1545,7 +1545,7 @@ const quizData = [
   },
   {
     question: "Em Mega Man, quem é o chefe final do jogo?",
-    options: ["Dr. Light", "Dr. Wily", "Proto Man", "Shadow Man", "Guts Man"],
+    options: ["Dr. Light", "Proto Man", "Shadow Man", "Guts Man", "Dr. Wily"],
     answer: "Dr. Wily",
   },
   {
@@ -1553,9 +1553,9 @@ const quizData = [
       "Qual vocalista de rock ficou famoso por morder a cabeça de um morcego durante um show?",
     options: [
       "Axl Rose",
-      "Ozzy Osbourne",
       "Robert Plant",
       "Kurt Cobain",
+      "Ozzy Osbourne",
       "Jim Morrison",
     ],
     answer: "Ozzy Osbourne",
@@ -1587,10 +1587,10 @@ const quizData = [
     question: "Qual é o maior animal já registrado na história?",
     options: [
       "Dinossauro Argentinosaurus",
-      "Baleia-azul",
       "Titanossauro",
       "Megatherium",
       "Elefante africano",
+      "Baleia-azul",
     ],
     answer: "Baleia-azul",
   },
@@ -1676,5 +1676,142 @@ const quizData = [
       "Qual país tem o maior número de idiomas falados, com cerca de 850 idiomas?",
     options: ["Indonésia", "Papua Nova Guiné", "Brasil", "Índia", "Nigéria"],
     answer: "Papua Nova Guiné",
+  },
+  {
+    question: "Qual é o bioma predominante na região Norte do Brasil?",
+    options: ["Caatinga", "Cerrado", "Mata Atlântica", "Pantanal", "Amazônia"],
+    answer: "Amazônia",
+  },
+  {
+    question:
+      "Qual foi o principal objetivo do Serviço de Proteção aos Índios (SPI), criado em 1910 no Brasil?",
+    options: [
+      "Conceder terras indígenas como propriedade privada",
+      "Promover a assimilação dos indígenas à cultura ocidental",
+      "Reprimir movimentos indígenas contra o governo",
+      "Preservar as línguas indígenas como patrimônio nacional",
+      "Incentivar a autonomia política das aldeias indígenas",
+    ],
+    answer: "Promover a assimilação dos indígenas à cultura ocidental",
+  },
+  {
+    question:
+      "Qual é o nome do famoso vulcão italiano que destruiu a cidade de Pompeia em 79 d.C.?",
+    options: ["Etna", "Vesúvio", "Stromboli", "Vulcano", "Monte Branco"],
+    answer: "Vesúvio",
+  },
+  {
+    question:
+      "Qual foi o principal objetivo do Serviço de Proteção aos Índios (SPI), criado em 1910 no Brasil?",
+    options: [
+      "Conceder terras indígenas como propriedade privada",
+      "Promover a assimilação dos indígenas à cultura ocidental",
+      "Reprimir movimentos indígenas contra o governo",
+      "Preservar as línguas indígenas como patrimônio nacional",
+      "Incentivar a autonomia política das aldeias indígenas",
+    ],
+    answer: "Promover a assimilação dos indígenas à cultura ocidental",
+  },
+  {
+    question:
+      "Qual civilização antiga é conhecida por desenvolver o sistema de escrita cuneiforme?",
+    options: ["Egípcia", "Fenícia", "Suméria", "Grega", "Romana"],
+    answer: "Suméria",
+  },
+  {
+    question:
+      "A Rota da Seda conectava principalmente a China com qual outra região do mundo antigo?",
+    options: [
+      "América do Sul",
+      "Europa Ocidental",
+      "África Subsaariana",
+      "Oriente Médio e Europa",
+      "Península Arábica",
+    ],
+    answer: "Oriente Médio e Europa",
+  },
+  {
+    question:
+      "Qual rei persa organizou o império em satrapias e construiu a Estrada Real?",
+    options: [
+      "Xerxes I",
+      "Ciro, o Grande",
+      "Artaxerxes III",
+      "Dario I",
+      "Cambises II",
+    ],
+    answer: "Dario I",
+  },
+  {
+    question:
+      "A Restauração Meiji, que marcou a modernização do Japão, começou em que período?",
+    options: [
+      "Período Edo",
+      "Período Heian",
+      "Período Kamakura",
+      "Período Meiji",
+      "Período Sengoku",
+    ],
+    answer: "Período Meiji",
+  },
+  {
+    question:
+      "Qual dinastia é conhecida por unificar a China pela primeira vez e iniciar a construção da Muralha da China?",
+    options: [
+      "Dinastia Zhou",
+      "Dinastia Tang",
+      "Dinastia Song",
+      "Dinastia Han",
+      "Dinastia Qin",
+    ],
+    answer: "Dinastia Qin",
+  },
+  {
+    question:
+      "Qual civilização pré-colombiana teve sua capital em Cusco e construiu Machu Picchu?",
+    options: ["Maya", "Inca", "Olmeca", "Asteca", "Tiahuanaco"],
+    answer: "Inca",
+  },
+  {
+    question:
+      "Qual foi o período de governo militar na Argentina conhecido como 'Guerra Suja', marcado por repressão e desaparecimentos forçados?",
+    options: ["1955–1960", "1966–1970", "1976–1983", "1985–1990", "1991–1995"],
+    answer: "1976–1983",
+  },
+  {
+    question:
+      "Qual império africano foi governado por Mansa Musa, conhecido por sua imensa riqueza e peregrinação a Meca no século XIV?",
+    options: [
+      "Império do Congo",
+      "Império do Gana",
+      "Império do Mali",
+      "Império de Axum",
+      "Império Zulu",
+    ],
+    answer: "Império do Mali",
+  },
+  {
+    question:
+      "Qual faraó do Egito Antigo promoveu uma reforma religiosa monoteísta centrada no deus Aton?",
+    options: [
+      "Tutancâmon",
+      "Ramsés II",
+      "Amenófis III",
+      "Akhenaton",
+      "Cleópatra VII",
+    ],
+    answer: "Akhenaton",
+  },
+  {
+    question:
+      "Qual importante contribuição cultural os fenícios deixaram para as civilizações do Mediterrâneo?",
+    options: [
+      "Arquitetura em pedra",
+      "Sistema decimal",
+      "Alfabeto fonético",
+      "Código de leis escritas",
+      "Culto aos deuses olímpicos",
+    ],
+    answer: "Alfabeto fonético",
   },
 ];
